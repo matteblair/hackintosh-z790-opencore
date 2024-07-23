@@ -1,7 +1,7 @@
 # hackintosh-z790-opencore
 This repository contains files and information for installing and configuring macOS 14 Sonoma on my Z790 + Alder Lake PC. I've made this public for the benefit of others using similar hardware, but I make no guarantees that this configuration will work the same on your PC.
 
-The configuration was built by following the Dortania Install Guide (https://dortania.github.io/OpenCore-Install-Guide/) using the Comet Lake configuration, combined with the steps in ChrisWayg's OpenCore Alder Lake Guide on /r/hackintosh (https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/).
+The configuration was built by following the [Dortania Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) using the Comet Lake configuration, combined with the steps in ChrisWayg's [OpenCore Alder Lake Guide](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/) on /r/hackintosh.
 
 My PC had a pre-existing Windows 10 installation on a separate SSD, which allowed me to collect ACPI files and USB port mapping on the target hardware before installing macOS.
 
@@ -33,10 +33,10 @@ What's working:
 - GPU acceleration
 - Audio input and output
 - Ethernet
-
-What's not working (yet):
 - WiFi
 - Bluetooth
+
+What's not working (yet):
 - AirDrop
 - Sleep/wake
 
